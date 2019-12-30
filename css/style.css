@@ -1,4 +1,6 @@
-
+*{
+   scroll-behavior: smooth; 
+}
 a:hover{
     text-decoration: none !important;
 }
@@ -40,6 +42,7 @@ font-family: 'Poppins', sans-serif;
     text-decoration: none !important;
     color: #fff !important;
     }
+    
 .navbar-light .navbar-brand{
 color: #fff;
 font-size: 35px;
@@ -60,4 +63,38 @@ font-family: 'Averia Serif Libre', cursive;
         font-size: 18px;
         line-height: 0.3;
     }
+}
+#about{
+    width: 100%;
+    height:100vh;
+    background: #ff9966; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9966, #ff5e62); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+}
+#service{
+    width: 100%;
+    height:100vh;
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#gallery{
+    width: 100%;
+    height:100vh;
+    background: #0cebeb;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#contact{
+    width: 100%;
+    height:100vh;
+    background: #CB356B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1{
+    left:50%;
+    top:50%;
+    position: relative;
+    
 }
