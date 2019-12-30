@@ -1,0 +1,63 @@
+
+a:hover{
+    text-decoration: none !important;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+.carousel-caption{
+    bottom: 220px;
+}
+.carousel-caption h5{
+font-size: 45px;
+letter-spacing: 2px;
+margin-top: 25px;
+font-family: 'Poppins', sans-serif;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-caption a{
+    padding: 10px 20px;
+    margin-top: 15px;
+    background: #262626;
+    display: inline-block;
+    color: #fff;
+
+}
+.navbar-nav a{
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    font-weight: bold; 
+    text-decoration: none !important;
+    color: #fff !important;
+    }
+.navbar-light .navbar-brand{
+color: #fff;
+font-size: 35px;
+font-weight: bold;
+letter-spacing: 2px;
+font-family: 'Averia Serif Libre', cursive;
+}
+.w-100{
+    height: 100vh;
+}
+@media only screen and (max-width:767px){
+    .navbar-nav.ml-auto{
+        background:rgba(0, 0, 0, 0.6);
+    }
+    .navbar-toggler{
+        background: #fff;
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+    }
+}
