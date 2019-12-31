@@ -50,6 +50,17 @@ font-weight: bold;
 letter-spacing: 2px;
 font-family: 'Averia Serif Libre', cursive;
 }
+.navbar-light .navbar-brand:hover{
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    }
+    a.nav-link:hover,a.active{
+        color:rgba(255, 255, 255, 0.7) ;
+    
+    }
+    a.active{
+       border-bottom: 1px solid #262626;
+    }
 .w-100{
     height: 100vh;
 }
@@ -91,4 +102,39 @@ font-family: 'Averia Serif Libre', cursive;
     background: #CB356B;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+span.social-whatsapp{
+    bottom:20px;
+    position:fixed;
+    right:20px;
+    z-index: 9999;
+}
+span.social-call{
+    bottom:20px;
+    position:fixed;
+    left:20px;
+    z-index: 9999;
+}
+span.connect{
+    display: none;
+}
+i.fa-whatsapp{
+font-size: 45px;
+color:white;
+background: green;
+background:transparent;
+}
+i.fa-phone{
+    font-size: 45px;
+    color:white;
+    background: green;
+    background:transparent;
+    }
+i.fa-whatsapp:hover{
+    color:green;
+ display: inline;
+}
+i.fa-phone:hover{
+    color:cyan;
+ display: inline;
 }
